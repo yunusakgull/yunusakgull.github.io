@@ -370,7 +370,7 @@ section .container {
 
 .section-title p {
   margin: 0;
-  margin: -15px 0 15px 0;
+  margin: -5px 0 15px 0;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1113,6 +1113,19 @@ section .container {
 .contact .php-email-form button[type="submit"]:hover {
   background: #15bb62;
 }
+
+.cv-download button[type="submit"] {
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.cv-download button[type="submit"]:hover{
+  background: #15bb62;
+} 
 
 @-webkit-keyframes animate-loading {
   0% {
